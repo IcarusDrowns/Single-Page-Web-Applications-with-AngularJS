@@ -113,10 +113,21 @@ h3.menu-item-title {
 }
 /* END SINGLE CATEGORY PAGE */
 
-.signup-input {
-  margin-top: 10px; 
-  color: black
+/* SIGN-UP FORM & MY INFO PAGE */
+.invalid-message {
+    color: #f6b319;
+    font-weight: bold;
 }
+.success-message {
+    color: #557c3e;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.my-info-row {
+    margin-bottom: 16px;
+}
+/* END SIGN-UP FORM & MY INFO PAGE */
+
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
